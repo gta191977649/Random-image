@@ -8,3 +8,5 @@ the default image folder is named as `imgs` if you want to configure the default
 - **IMG_DIR** - the relative path for your images folder from your web server.
 - **IMG_EXTENSIONS** - the supported image file extension for your images.
 - **IMG_NO_REPEAT_CURRENT** - if set to `true` the next randomly selected image won't be same to the currently selected image, if set to `false` will ignore the currently selected image for next random select (so the repetitive selected image may occur).
+# How to import the image
+you can directly call `index.php` to fetch the image, e.g. if this script is in your root web folder `www/Random-image/` then you can access image via the url `http://[your-ip]/Random-image`.
